@@ -57,6 +57,6 @@ public class UserProfileController {
 
 	@DeleteMapping("user/{id}")
 	public void deleteUserProflie(@PathVariable("id") String id) {
-		userMap.remove(id);
+		userMap.remove(id); 
 	}
 }
