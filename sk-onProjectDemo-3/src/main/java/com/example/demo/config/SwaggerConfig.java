@@ -26,7 +26,7 @@ public class SwaggerConfig {
                .produces(getProduceContentTypes())
                .apiInfo(getApiInfo())
                .select()
-               .apis(RequestHandlerSelectors.basePackage("com.example.demo"))
+               .apis(RequestHandlerSelectors.basePackage("com.example.demo.controller"))
                .paths(PathSelectors.any())
                .build();
    }

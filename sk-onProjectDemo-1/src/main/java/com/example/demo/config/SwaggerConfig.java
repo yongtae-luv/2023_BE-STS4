@@ -30,7 +30,6 @@ public class SwaggerConfig {
                .build();
    }
 
-
    private ApiInfo getApiInfo() {
        return new ApiInfoBuilder()
                .title("API")
